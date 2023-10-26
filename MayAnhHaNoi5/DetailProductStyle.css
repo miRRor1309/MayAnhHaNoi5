@@ -1,0 +1,217 @@
+﻿body {
+    margin: 0px;
+    font-family: Arial;
+    background-color: whitesmoke;
+}
+/*----------------------------------HEADER-----------------------------*/
+.header {
+    background-color: #BF3674;
+    width: 100%;
+    height: 76px;
+}
+
+.header-Info {
+    width: 75%;
+    height: 76px;
+    margin: auto;
+}
+
+    .header-Info ul {
+        list-style: none;
+        padding: 3px;
+        margin: 0px;
+    }
+
+        .header-Info ul li {
+            display: inline-block;
+            vertical-align: middle;
+        }
+/*--------------------------------HEADER-LOGO---------------------------*/
+.header-logo {
+    width: 170px;
+    height: 55px;
+    background-color: white;
+    border: 1px;
+    border-radius: 10px;
+}
+
+    .header-logo img {
+        width: 170px;
+        height: 55px;
+    }
+/*--------------------------------HEADER-SEARCH---------------------------*/
+.header-search input {
+    width: 400px;
+    height: 36px;
+    margin: 17px;
+    margin-right: 0px;
+    border: none;
+    float: left;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.header-search button {
+    background-color: #ffa800;
+    width: 55px;
+    height: 36px;
+    margin: 17px;
+    margin-left: 0px;
+    border: none;
+    float: left;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+input[type="te"] {
+    text-align: left;
+    margin-left: 5px;
+}
+/*---------------------------------NAV-------------------------------------------*/
+.nav {
+    width: 100%;
+    background-color: white;
+    height: 46.2px;
+}
+
+.nav-Info {
+    width: 75%;
+    margin: auto;
+}
+
+    .nav-Info ul {
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+    }
+
+        .nav-Info ul li {
+            display: inline-block;
+            vertical-align: middle;
+        }
+/*-------------------------------HEADER-SEEN--------------------------------*/
+.header-seen {
+    color: white;
+    background-color: #972b5c;
+    padding: 15px 40px 15px 10px;
+    border-radius: 4px;
+    margin-left: 20px;
+    font-size: 13px;
+}
+.nav-diachi {
+    width: 480px;
+    height: 44px;
+    padding-left: 10px;
+    font-size: small;
+}
+
+.section-1 .container {
+    display: flex;
+}
+
+.section-1 .left-box {
+    margin-left: 280px;
+    margin-top: -230px;
+    flex: auto;
+}
+
+    .section-1 .left-box img {
+        width: 450px;
+    }
+
+.section-1 .right-box {
+    flex: auto;
+}
+
+    .section-1 .right-box img {
+        width: 215px;
+    }
+
+.section-2 {
+    width: 100%;
+    height: 191.66px;
+    margin: 10px 0px 10px 0px;
+    text-align: center;
+}
+
+    .section-2 img {
+        height: 191.66px;
+        width: 75%;
+    }
+
+.section-gift {
+    background-color: hotpink;
+    width: 75%;
+    margin: auto;
+}
+    /* Define the grid container */
+    .section-gift .grid-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr); /* Create 4 columns */
+        gap: 0px; /* Gap between grid items */
+        text-align: center;
+    }
+
+    /* Style for grid items */
+    .section-gift .grid-item {
+    }
+
+        .section-gift .grid-item img {
+            padding: 15px;
+            width: 200px;
+        }
+/*----------------------------------NAV-DANHMUC-----------------------------------*/
+.nav-danhmuc {
+    height: 25.4px;
+    width: 267.5px;
+    padding: 10px;
+    border-style: ridge;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+}
+/*----------------------------------FOOTER-----------------------------------*/
+.footer {
+    background-color: #262844;
+    width: 100%;
+    height: 680px;
+}
+.footer img {
+    text-align: center;
+}
+
+.footer .column {
+    float: left;
+    margin-top: 200px;
+    width: 33.333%;
+}
+
+.footer:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.list-menu a {
+    text-decoration: none;
+    color: white;
+    margin-bottom: 7px;
+}
+
+    .list-menu a:hover {
+        color: #BF3674;
+    }
+
+.danhmuc-btn a {
+    text-decoration: none;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.danhmuc-btn2 {
+    padding: 4px 7px 4px 4px;
+    margin-bottom: 7px;
+}
+/*-------Product--------*/
+.product-top p span{
+    font-size:15px;;
+}
